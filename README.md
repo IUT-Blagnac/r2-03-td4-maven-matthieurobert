@@ -1,1 +1,21 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7151088&assignment_repo_type=AssignmentRepo)
+# Lancement du projet
+
+Pour compiler le projet faire:
+
+```mvn compile```
+
+Puis effectuer la commande suivante pour lancer la fabrication de la version exécutable:
+
+```mvn package```
+
+Pour lancer le projet, effectuez la commande suivante:
+
+```java -jar target/tp_qualite-1.0.jar```
+
+# Génération de la javadoc
+
+Pour lancer la création de la javadoc, effectuez la commande:
+
+```mvn javadoc:javadoc```
+
+Puis allez dans le fichier ```index.html``` qui se situe dans le dossier ```target/site/apidocs```
